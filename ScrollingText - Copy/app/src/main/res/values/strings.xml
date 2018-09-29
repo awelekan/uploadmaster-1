@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">scrollingtexttwo</string>
+    <string name="article_title"> THE SUMMER OF CODE</string>
+    <string name="article_subtitle"> Android Ibadan</string>
+    <string name="article_text"> <b>Android Ibadan Community</b> – A subsidiary of Android Nigeria Community – is a  community of android developers that leverages the support of companies and
+        organizations to spread technology across Ibadan. \n Summer of Code is a program that aims to teach, as a start, the basics of Android Programming and the Java Programming Language to young people and anybody who is interested in becoming an android developer.
+        \n <b>Benefits</b> \n >> Opportunity to become Android Developer \n >> Free training for top performance learners at New Horizons \n >> Internship opportunity at Cloudware Technologies
+        \n >> Swags for the learners that finish the program \n >> Certificate of completion from Android Ibadan \n >> Networking opportunity \n Among others \n \n
+            >>> Register http://bit.ly/androidIb_codingSummer \n
+            >>> WhatsApp Group  http://bit.ly/android_ib_group \n
+            >>> Learn More  http://bit.ly/android_ib_doc \n
+            >>> Program Curriculum  http://bit.ly/android_ib_sturdy \n \n
+        The program duration will be one and a half month with two physical meet-ups to be held. \n The first meet-up will at the beginning of the program to introduce students to what will be expected of them, the curriculum they will be following, the various means of communication and most especially to meet with their instructors and co-learners. The second meet-up is slated for the last week of the program and aims to reward the best learners in the program.
+        \n \n With great support from companies like New Horizons Limited and Cloudware Technologies, student not only get SWAGs like T-Shirt to show for their participation in the program but the best students will also get to extend their knowledge and career through free training at New Horizons Limited and also internship opportunity at Cloudware Technologies.
+
+    </string>
+    <string name="add_comment">Add Comment</string>
+
+
+</resources>

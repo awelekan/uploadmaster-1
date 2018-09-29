@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chydee.HelloConstraint.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showToast"
+        android:text="Toast"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/button_count"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="452dp"
+        android:layout_height="259dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFF043"
+        android:gravity="center"
+        android:text="@string/count_initial_value"
+        android:textColor="@color/colorPrimary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="0" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/colorPrimary"
+        android:onClick="countUp"
+        android:text="Count"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="207dp" />
+</android.support.constraint.ConstraintLayout>
